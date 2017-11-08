@@ -1,0 +1,19 @@
+[package]
+name = "server"
+version = "0.1.0"
+authors = ["brantleighbunting"]
+
+[dependencies]
+libc = "*"
+mongodb = "0.3.7"
+bson = "0.10.0"
+serde_json = "*"
+serde_derive = "*"
+serde = "*"
+rustc-serialize = "*"
+nickel = "*"
+
+
+[dependencies.rustful]
+version = "0.9.0"
+default-features = false
