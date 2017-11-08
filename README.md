@@ -63,3 +63,7 @@ db.courses.insert({
 });
 
 ```
+
+# Steps Moving Forward:
+* Need to convert excel files into json
+* Commit .json files to this repo for easy insertion into MongoDB
